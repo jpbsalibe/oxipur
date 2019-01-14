@@ -1,0 +1,154 @@
+html {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: #fbfbfb;
+    color: #000;
+}
+
+
+.flex {
+    display: flex;
+}
+
+/*-- HEADAER --*/
+
+.navbar {
+    background-color: #fff;
+}
+
+.container-fluid {
+    align-items: center;
+}
+
+.navbar-brand {
+    height: 5rem;
+}
+
+header a {
+    font-size: 1.5rem;
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+}
+
+/*-- SLIDER --*/
+
+.carrusel {
+    display: flex;
+    padding-top: 5.5rem;
+}
+
+/*-- JUMBOTRON --*/
+
+
+.jumbotron {
+    margin-top: 1rem;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Sintony", sans-serif;
+    color: #fff;
+}
+
+
+.jumbotron h1 {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    font-size: 3rem;
+}
+
+/*-- CTA'S --*/
+
+.main-cta {
+    background: linear-gradient(0deg, rgba(0, 86, 238, 0.3), rgba(255,0,150,0.3)), url(../images/Jumbotron.jpg) no-repeat;
+    background-position: 0% 85%;
+    background-size: 100%;
+    
+}
+
+.sub-cta a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-novedades {
+    background: linear-gradient(0deg, rgba(0, 86, 238, 0.3), rgba(255,0,150,0.3)), url(../images/cta-novedades.jpg) no-repeat;
+    background-position: 0% 85%;
+    background-size: 100%;
+}
+
+.cta-destacados {
+    background: linear-gradient(0deg, rgba(0, 86, 238, 0.3), rgba(255,0,150,0.3)), url(../images/cta-destacados.jpg) no-repeat;
+    background-position: 0% 85%;
+    background-size: 100%; 
+}
+
+/* SLICK BUTTONS*/
+
+.slick-prev:after {
+    content: "\f100";
+}
+
+.slick-next:before {
+    content: "\f101";
+}
+
+.slick-next,
+.slick-prev {
+    border: none;
+    margin: .5rem;
+    background-color: transparent;
+    font-family: FontAwesome;
+    color: #c8c8c8;
+    font-size: 2.5rem;
+}
+
+/*-- TRASTORNOS RESPIRATRIOS --*/
+
+.titulo-trastornos,
+.marcas h1 {
+    font-family: "Sintony", sans-serif;
+    height: 2rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.colap img {
+    height: 10rem;
+}
+
+/*-- MARCAS ALIADAS --*/
+
+.marcas {
+    flex-direction: column;
+}
+
+.test {
+    flex-direction: row;
+    align-items: center;
+}
+
+.marcas .thumbnail {
+    border: none;
+}
+
+/*-- FOOTER --*/
+
+footer {
+    padding: 2.5rem;
+    background-color: #eee;
+    height: 11.75rem;
+    line-height: 2rem;
+}
+
+footer .navbar {
+    background-color: #eee;
+}
+
+.contacto {
+    flex-direction: column;
+}
